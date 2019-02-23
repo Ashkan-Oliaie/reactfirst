@@ -1,0 +1,10 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.HeaderItem {
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=Header.css.map */
