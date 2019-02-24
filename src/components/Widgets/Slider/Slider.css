@@ -1,0 +1,20 @@
+.featureItem {
+  position: relative;
+}
+.featureItem .featureImage {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 20rem;
+}
+.featureItem a {
+  position: absolute;
+  bottom: 0;
+  color: aliceblue;
+  padding: 1rem;
+}
+
+.slick-dots {
+  position: unset;
+}
+
+/*# sourceMappingURL=Slider.css.map */

@@ -5,6 +5,7 @@ import SecondPage from "../Pages/SecondPage";
 import HomePage from "../Pages/HomePage";
 import ErrorPage from "../Pages/ErrorPage";
 import Layout from "./Layout/Layout";
+import ArticlesPage from "../Pages/ArticlesPage";
 
 class Routes extends Component {
 
@@ -16,6 +17,7 @@ class Routes extends Component {
                 {/*There is a Header here*/}
 
                     <Switch>
+                        <Route path={"/articles/:id"} component={ArticlesPage}/>
                         <Route path={"/SecondPage"} component={SecondPage}/>
                         <Route path={"/home"} exact component={HomePage}/>
                         <Route component={ErrorPage}/>
