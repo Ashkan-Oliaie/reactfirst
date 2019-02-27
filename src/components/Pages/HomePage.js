@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Posts from "../Elements/Posts";
 import Videos from "../Elements/Videos";
 import Slider from "../Widgets/Slider/Slider";
+import List from "../Widgets/ItemList/List";
 
 class HomePage extends Component {
 
@@ -13,7 +14,7 @@ class HomePage extends Component {
         return (
             <div className="w-100">
                 <Slider type={"features"} start={"0"} end={"3"} />
-                <Posts/>
+                <List start={0} amount={3}/>
                 <Videos/>
             </div>
         );

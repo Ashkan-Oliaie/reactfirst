@@ -1,0 +1,41 @@
+.itemEnter {
+  opacity: 0;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+  transition: all 500ms;
+}
+
+.itemEntered {
+  background-color: #cccfff;
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.itemEnterDone {
+  background-color: #cccfff;
+}
+
+.listItem {
+  border-bottom: solid 1px black;
+  padding: 0.5rem;
+}
+
+.itemExit {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 500ms;
+}
+
+.itemExiting {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+/*# sourceMappingURL=ListStyle.css.map */

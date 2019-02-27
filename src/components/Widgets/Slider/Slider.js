@@ -22,7 +22,6 @@ class Slider extends Component {
     }
 
     render() {
-        console.log(this.state)
         return (
             <div>
                 <SliderTemp type={this.props.type} articlesData={this.state.articles}/>
